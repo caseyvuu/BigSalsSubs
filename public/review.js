@@ -82,8 +82,3 @@ const showReviews = async() => {
 
     setInterval(updateReview, 2000);
 };
-
-window.onload = () => {
-    showReviews();
-    document.getElementById("review-form").onsubmit = addReview;
-};
