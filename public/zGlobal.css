@@ -93,143 +93,6 @@ input[type="text"] {
     display: none;
 }
 
-/* Home Page */
-#home-page {
-    padding: 5%;
-    margin-top: -10%;
-}
-
-#home-page h1 {
-    margin: 0;
-}
-
-#home-page img {
-    max-width: 100%;
-}
-
-#map-section {
-    margin-top: -10%;
-    background-color: #92ABFF;
-}
-
-#map-text {
-    margin-left: 10%;
-    width: 60%;
-}
-
-#map-text h1 {
-    text-align: left;
-}
-
-#map {
-    margin-left: 30%;
-    width: 100%;
-}
-
-/* Menu Page */
-#menu-content h3, 
-#menu-content p {
-    text-align: center;
-}
-
-#menu-content img {
-    width: 15%;
-    height: 15%;
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
-    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-}
-
-.menu-style {
-    border: 5px solid #002DC8;
-    background-color: #92ABFF;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.menu-padding {
-    padding: 20px;
-}
-
-
-/* Order Page */
-#order-left,
-#order-right {
-    padding: 5%;
-    margin: auto;
-}
-
-#notes {
-    width: 100%;
-    height: 200px;
-}
-
-#checkboxes {
-    padding: 10px;
-}
-
-/* Review Page */
-#review-left,
-#review-right {
-    padding-left: 12%;
-    margin-right: 100px;
-}
-
-#review-img {
-    width: 100%;
-    height: 70%;
-}
-
-#review-message {
-    height: 100px;
-    width: 100%;
-}
-
-#review-text {
-    width: 95%;
-    height: 40%;
-    background-color: #92ABFF;
-    border: 4px solid #002DC8;
-    padding: 10px;
-}
-
-/* About */
-#about-page {
-    padding: 5%;
-    margin-top: -10%;
-}
-
-#about-page h1 {
-    margin: 0;
-}
-
-#about-page img {
-    max-width: 100%;
-}
-
-/* Contact Page */
-#main-contact h1, 
-#main-contact p{
-    text-align: center;
-}
-
-#contact-content {
-    margin-left: 15%;
-}
-
-#contact-message {
-    height: 200px;
-    width: 100%;
-}
-
-#contact-result {
-    text-align: center;
-}
-
 /* Navigation */
 #nav-logo {
     height: 100%;
@@ -280,12 +143,6 @@ input[type="text"] {
         height: 50%;
     }
 
-    #menu-left img,
-    #menu-right img {
-        width: 50%;
-        height: 50%;
-    }
-
     #menu-toggle {
         background-color: #002DC8;
         padding: 10px;
@@ -293,17 +150,6 @@ input[type="text"] {
 
     #menu-items {
         margin-top: -10px;
-    }
-
-    #about-page,
-    #home-page {
-        margin-top: 0;
-        text-align: center;
-    }
-
-    #contact-content,
-    #map {
-        margin: auto;
     }
 }
 
@@ -320,11 +166,6 @@ input[type="text"] {
         justify-content: center;
         align-items: center;
         height: 100vh;
-    }
-    
-    .homeaboutcontainer {
-        display: flex;
-        align-items: center;
     }
 
     .flex-column {

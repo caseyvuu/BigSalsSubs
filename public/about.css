@@ -1,0 +1,29 @@
+/* About */
+#about-page {
+    padding: 5%;
+    margin-top: -10%;
+}
+
+#about-page h1 {
+    margin: 0;
+}
+
+#about-page img {
+    max-width: 100%;
+}
+
+/* Smaller Resolutions */
+@media (max-width: 900px){
+    #about-page {
+        margin-top: 0;
+        text-align: center;
+    }
+}
+
+/* Larger Resolutions */
+@media (min-width:900px){
+    .homeaboutcontainer {
+        display: flex;
+        align-items: center;
+    }
+}

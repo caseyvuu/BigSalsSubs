@@ -1,0 +1,25 @@
+/* Contact Page */
+#main-contact h1, 
+#main-contact p{
+    text-align: center;
+}
+
+#contact-content {
+    margin-left: 15%;
+}
+
+#contact-message {
+    height: 200px;
+    width: 100%;
+}
+
+#contact-result {
+    text-align: center;
+}
+
+/* Smaller Resolutions */
+@media (max-width: 900px){
+    #contact-content {
+        margin: auto;
+    }
+}

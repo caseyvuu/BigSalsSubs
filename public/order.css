@@ -1,0 +1,15 @@
+/* Order Page */
+#order-left,
+#order-right {
+    padding: 5%;
+    margin: auto;
+}
+
+#notes {
+    width: 100%;
+    height: 200px;
+}
+
+#checkboxes {
+    padding: 10px;
+}
